@@ -28,3 +28,13 @@ console.log(pow(2,3));
 
 
 // JavaScript Fundamentals > Function expressions and arrows
+
+function ask(question, yes, no) {
+    if (confirm(question)) yes()
+    else no();
+    }
+    ask(
+    "Do you agree?",
+    () => alert("You agreed."),
+    () => alert("You canceled the execution.")
+    );
