@@ -1,4 +1,5 @@
-//A function that takes three numbers as arguments and returns thelargest of them. 
+"use strict";
+/* eslint-disable */
 
 function maxOfThree(x,y,z){
     if(x>y && x>z){
@@ -9,8 +10,3 @@ function maxOfThree(x,y,z){
         return z;
     }
 }
-
-
-
-
-console.log(maxOfThree(4,5,6));

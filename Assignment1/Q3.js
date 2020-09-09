@@ -1,3 +1,6 @@
+"use strict";
+/* eslint-disable */
+
 // A function that returns the sum of a give array
 
 function sum(arr){

@@ -1,5 +1,5 @@
-// A function that takes an array of words and returns the length ofthe longest one.
-
+"use strict";
+/* eslint-disable */
 
 function findLongestWord(arr){
     let longest=arr[0].length;

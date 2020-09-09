@@ -1,3 +1,6 @@
+"use strict";
+/* eslint-disable */
+
 // JavaScript Fundamentals > Functions
 
 // Will the function work differently if else is removed? yes, No differance
